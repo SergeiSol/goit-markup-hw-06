@@ -21,10 +21,10 @@
 
         <ul class="header-list list">
             
-            <li class="header-item"><a class="nav-link link current" href="./index.html">Студия</a></li>
+            <li class="header-item"><a class="nav-link link active" href="./index.html">Студия</a></li>
             
 
-            <li class="header-item"><a class="nav-link link" href="./portfolio.html">Портфолио</a></li>
+            <li class="header-item"><a class="nav-link link active current" href="./portfolio.html">Портфолио</a></li>
 
 
             <li class="header-item"><a class="nav-link link" href="./index.html">Контакты</a></li>
@@ -284,54 +284,54 @@
     </footer>
 
     <div class="bascdrop is-hidden" data-modal>
-               
 
         <div class="modal">
-            <p class="fiel">
+            
 
         <form class="form js-speeker-form">
 
-        <h3 class="form-head">Оставьте свои данные, мы вам перезвоним</h3>
-
-      <ul class="form-list">
-
-        <li class="form-field"><label for="">Имя</label></li>
-
-           <li class="box"><span class="icon-person"><svg class="icon">
-                    <use href="./images/icons.svg#icon-person"></use>
-                </svg></span>
-        <input class="person" type="text" name="name" id="name"></li>
         
+          <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
+     
 
-        <li class="form-field"><label for="tel">Телефон</label></li>
-
-           <li class="box"><span class="icon-person"><svg class="icon-phone">
-                <use href="./images/icons.svg#icon-phone"></use>
-            </svg></span><input class="person" type="text" name="tel" id="tel"> </li>
-
-          <li class="form-field"><label for="mail">Почта</label></li>
-
-         <li class="box"><svg class="icon-email">
-            <use href="./images/icons.svg#icon-email"></use>
-        </svg><input class="person" type="email" name="mail" id="mail"></li>
-
-        </ul>
-
-        <div class="form-coment-text">
-        <li class="form-coment list"><label for="coment">Комментарий</label>
-        <textarea class="coment" name="coment" id="coment" placeholder="Введите текст"></textarea></li>
+        <label for="name" class="modal-label">Имя</label>
+            <div class="modal-field-wrap">
+              <svg class="modal-icon">
+                    <use href="./images/icons.svg#icon-person"></use>
+                </svg>
+        <input type="text" name="name" id="name" class="modal-input">
         </div>
 
-         <div class="form-policy-check">
+         <label for="tel" class="modal-label">Телефон</label>
+        <div class="modal-field-wrap">
+            <svg class="modal-icon">
+                <use href="./images/icons.svg#icon-phone"></use>
+            </svg>
+        <input type="text" name="tel" id="tel" class="modal-input"> 
+            </div>
+        
+        <label for="mail" class="modal-label">Почта</label>
+        <div class="modal-field-wrap">
+           <svg class="modal-icon">
+            <use href="./images/icons.svg#icon-email">
+            </use></svg>
+        <input type="email" name="mail" id="mail" class="modal-input">
+            </div>
+        <div class="modal-field">
+        <label for="coment">Комментарий</label>
+        <textarea class="modal-text" name="coment" id="coment" placeholder="Введите текст"></textarea></li>
+        </div>
+
+         <div class="modal-policy">
         <input type="checkbox" name="policy" id="policy" value="policy" class="modal-check visually-hidden">
         <label class="check-text" for="policy">Соглашаюсь с рассылкой и принимаю<a class="span" href="">Условия договора</a></label>
-    </div>
+        </div>
 
     <button class="btn-submit" type="submit"><h3 class="btn-click">Отправить</h3></button>
 </form>
-</p>
+
     <button class="icon-btn" data-modal-close><svg class="icon-vector">
-        <use href="./images/ico/vector.svg#icon-vector"></use>
+        <use href="./images/icons.svg#icon-vector"></use>
     </svg></button>
     </div>
     </div>
