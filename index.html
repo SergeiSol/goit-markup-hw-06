@@ -298,7 +298,7 @@
         <li class="form-field"><label for="">Имя</label></li>
 
            <li class="box"><span class="icon-person"><svg class="icon">
-                    <use href="./images/symbol-defs.svg#icon-person"></use>
+                    <use href="./images/icons.svg#icon-person"></use>
                 </svg></span>
         <input class="person" type="text" name="name" id="name"></li>
         
@@ -306,27 +306,28 @@
         <li class="form-field"><label for="tel">Телефон</label></li>
 
            <li class="box"><span class="icon-person"><svg class="icon-phone">
-                <use href="./images/symbol-defs.svg#icon-phone"></use>
+                <use href="./images/icons.svg#icon-phone"></use>
             </svg></span><input class="person" type="text" name="tel" id="tel"> </li>
 
           <li class="form-field"><label for="mail">Почта</label></li>
 
          <li class="box"><svg class="icon-email">
-            <use href="./images/symbol-defs.svg#icon-email"></use>
+            <use href="./images/icons.svg#icon-email"></use>
         </svg><input class="person" type="email" name="mail" id="mail"></li>
 
         </ul>
 
         <div class="form-coment-text">
         <li class="form-coment list"><label for="coment">Комментарий</label>
-        <textarea class="coment" name="coment" id="coment" cols="10" rows="10" placeholder="Оставьте коментарий"></textarea></li>
+        <textarea class="coment" name="coment" id="coment" placeholder="Введите текст"></textarea></li>
         </div>
+
          <div class="form-policy-check">
-        <li class="form-policy list"><input type="checkbox" name="policy" id="policy">
-        <label class="policy" for="policy">Соглашаюсь с рассылкой и принимаю<a class="span" href="">Условия договора</a></label></li>
+        <input type="checkbox" name="policy" id="policy" value="policy" class="modal-check visually-hidden">
+        <label class="check-text" for="policy">Соглашаюсь с рассылкой и принимаю<a class="span" href="">Условия договора</a></label>
     </div>
 
-    <button class="btn-submit" type="submit">Оставить заявку</button>
+    <button class="btn-submit" type="submit"><h3 class="btn-click">Отправить</h3></button>
 </form>
 </p>
     <button class="icon-btn" data-modal-close><svg class="icon-vector">
