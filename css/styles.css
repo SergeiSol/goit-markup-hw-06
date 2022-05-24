@@ -110,7 +110,7 @@ body{
     margin-bottom: 100px;
     
 }
-.nav-link::after{
+.active::after{
     content: "";
     display: block;
     position: absolute;
@@ -129,6 +129,9 @@ body{
 .nav-link:hover, .current::after{
     opacity: 1;
     
+}
+.active::after{
+
 }
 
 
@@ -704,6 +707,8 @@ address {
 .modal-input:focus,
 .modal-text:hover,
 .modal-text:focus,
+.modal-icon:hover,
+.modal-icon:focus,
 .current {
     border: 1px solid #2196F3;
 }
